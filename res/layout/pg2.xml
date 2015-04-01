@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/blue" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        >
+
+        <AbsoluteLayout
+            android:id="@+id/AbsoluteLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="522dp" >
+
+            <Button
+                android:id="@+id/lof"
+                android:layout_width="65dp"
+                android:layout_height="58dp"
+                android:layout_x="36dp"
+                android:layout_y="150dp"
+                android:background="@drawable/death_list" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="110dp"
+                android:layout_y="277dp"
+                android:text="See Friend Request"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/noti"
+                android:layout_width="59dp"
+                android:layout_height="60dp"
+                android:layout_x="183dp"
+                android:layout_y="222dp"
+                android:background="@drawable/friends" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="21dp"
+                android:layout_y="68dp"
+                android:text="Edit Profile"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/editbutton1"
+                android:layout_width="52dp"
+                android:layout_height="50dp"
+                android:layout_x="48dp"
+                android:layout_y="16dp"
+                android:background="@drawable/edit_user" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="6dp"
+                android:layout_y="210dp"
+                android:text="List of Friends"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/mapview"
+                android:layout_width="68dp"
+                android:layout_height="65dp"
+                android:layout_x="37dp"
+                android:layout_y="316dp"
+                android:background="@drawable/maps" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="23dp"
+                android:layout_y="385dp"
+                android:text="Map View"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="172dp"
+                android:layout_y="424dp"
+                android:text="Notification"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/noti1"
+                android:layout_width="62dp"
+                android:layout_height="53dp"
+                android:layout_x="193dp"
+                android:layout_y="364dp"
+                android:background="@drawable/preferences_desktop_notification" />
+
+            <Button
+                android:id="@+id/addfri"
+                android:layout_width="61dp"
+                android:layout_height="52dp"
+                android:layout_x="198dp"
+                android:layout_y="82dp"
+                android:background="@drawable/f" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="161dp"
+                android:layout_y="135dp"
+                android:text="Add Friends!"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="13dp"
+                android:layout_y="494dp"
+                android:text="Sign Out"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/exitall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="38dp"
+                android:layout_y="461dp"
+                android:background="@drawable/exit1" />
+
+        </AbsoluteLayout>
+    </AbsoluteLayout>
+
+</ScrollView>

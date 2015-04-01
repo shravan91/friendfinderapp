@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blue"  >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1440dp"
+          >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Categories"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="24dp"
+            android:text="Amusement Park" />
+
+        <CheckBox
+            android:id="@+id/CheckBox01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBox1"
+            android:text="Car Dealer" />
+
+        <CheckBox
+            android:id="@+id/CheckBox02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox01"
+            android:text="Car Rental" />
+
+        <CheckBox
+            android:id="@+id/CheckBox03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox02"
+            android:text="Car Repair" />
+
+        <CheckBox
+            android:id="@+id/CheckBox04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox03"
+            android:text="Cash Dispenser" />
+
+        <CheckBox
+            android:id="@+id/CheckBox05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox04"
+            android:text="Cinema" />
+
+        <CheckBox
+            android:id="@+id/CheckBox06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox05"
+            android:text="Education" />
+
+        <CheckBox
+            android:id="@+id/CheckBox07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox06"
+            android:text="Exhibition Centre" />
+
+        <CheckBox
+            android:id="@+id/CheckBox08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox07"
+            android:text="Goverment Office" />
+
+        <CheckBox
+            android:id="@+id/CheckBox09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox08"
+            android:text="Hospital" />
+
+        <CheckBox
+            android:id="@+id/CheckBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox09"
+            android:text="Hotel" />
+
+        <CheckBox
+            android:id="@+id/CheckBox11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox10"
+            android:text="Library" />
+
+        <CheckBox
+            android:id="@+id/CheckBox14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox11"
+            android:text="Museum" />
+
+        <CheckBox
+            android:id="@+id/CheckBox13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox14"
+            android:text="Outdoor Sports" />
+
+        <CheckBox
+            android:id="@+id/CheckBox12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox13"
+            android:text="Parking" />
+
+        <CheckBox
+            android:id="@+id/CheckBox19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox12"
+            android:text="Petrol Station" />
+
+        <CheckBox
+            android:id="@+id/CheckBox18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox19"
+            android:text="Pharmacy" />
+
+        <CheckBox
+            android:id="@+id/CheckBox16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox18"
+            android:text="Post Office" />
+
+        <CheckBox
+            android:id="@+id/CheckBox15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/CheckBox16"
+            android:text="Police" />
+
+        <CheckBox
+            android:id="@+id/CheckBox23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox15"
+            android:text="Religious Place" />
+
+        <CheckBox
+            android:id="@+id/CheckBox22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox23"
+            android:text="Rest Area" />
+
+        <CheckBox
+            android:id="@+id/CheckBox21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox22"
+            android:text="Restaurant" />
+
+        <CheckBox
+            android:id="@+id/CheckBox20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox21"
+            android:text="Shop" />
+
+        <CheckBox
+            android:id="@+id/CheckBox17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox20"
+            android:text="Theatre" />
+
+        <CheckBox
+            android:id="@+id/CheckBox24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox17"
+            android:text="Tourist Attraction" />
+
+        <CheckBox
+            android:id="@+id/CheckBox25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/CheckBox24"
+            android:text="Tourist Information" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Done" />
+
+    </RelativeLayout>
+
+</ScrollView>
